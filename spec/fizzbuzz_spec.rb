@@ -68,5 +68,21 @@ RSpec.describe FizzBuzz do
             let(:number) { 16 }
             it { is_expected.to eq 16 }
         end
+        context "when number is 17" do
+            let(:number) { 17 }
+            it { is_expected.to eq 17 }
+        end
+        context "when number is 18" do
+            let(:number) { 18 }
+            it { is_expected.to eq "fizz" }
+        end
+        context "when number is 19" do
+            let(:number) { 19 }
+            it { is_expected.to eq 19 }
+        end
+        context "when number is 20" do
+            let(:number) { 20 }
+            it { is_expected.to eq "buzz" }
+        end
     end
 end
